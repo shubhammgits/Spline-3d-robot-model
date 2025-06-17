@@ -152,6 +152,7 @@ main{
 .buttons{
     display: flex;
     gap: 1rem;
+    margin-top: 3rem;
 }
 
 .btn-get-started{
@@ -162,4 +163,25 @@ main{
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn-get-started:hover{
+    background-color: #1a1a1a ;
+}
+
+.btn-signing-main{
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 0.6rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: backgcolor 0.2s ease;
+}
+
+.btn-signing-main:hover{
+    background-color: gray;
 }
